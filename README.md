@@ -1,0 +1,30 @@
+Chat Bot
+Chat Bot is an innovative project designed to leverage the Gemini API and LangChain for advanced document analysis capabilities. This project enables advanced parsing, insightful analysis, and streamlined data extraction from PDF documents.
+
+Project Files
+app.py: The main application file that runs the Chat Bot.
+requirements.txt: A list of all the dependencies and libraries required to run the project.
+LinkedIn Post
+For more information and updates, check out our LinkedIn post: Chat Bot LinkedIn Post
+
+Installation
+To get started with the Chat Bot, follow these steps:
+
+Clone the repository:
+
+git clone <your-repository-url>
+cd <your-repository-directory>
+Install the required libraries:
+
+pip install -r requirements.txt
+Create an environment file: Create a .env file in the project directory and add your Google API key:
+
+GOOGLE_API_KEY = "your-generated-api-key-from-google-ai-studio"
+Running the Application
+Once you have installed all the required libraries, run the application with:
+
+python -m streamlit run app.py
+This will start the Streamlit server, and you will be able to interact with the Chat Bot through your web browser.
+
+Acknowledgements
+Special thanks to Kunal Kishore and Skillcred for their valuable guidance and support throughout this project.
